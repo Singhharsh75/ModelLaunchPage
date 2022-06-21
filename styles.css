@@ -85,6 +85,7 @@ img{
 
 .top{
     display: flex;
+    justify-content: space-between;
     background-color:#1F2937;
     color: white;
     padding: 70px;
@@ -107,6 +108,17 @@ img{
 }
 .container{
     display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    justify-self: center;
 }
 .button{
     padding: 8px 20px;
